@@ -1,0 +1,52 @@
+*{
+    margin: 20px 50px;
+    font-family: sans-serif;
+   
+
+}
+body{
+    
+    background-color: green;
+}
+
+.emoji3{
+    display: none;
+
+}
+.emoji3.show3{
+    display: block;
+
+}
+.emoji2{
+    display: none;
+}
+.emoji2.show2{
+    display: block;
+}
+
+.emoji1{
+    display: block;
+}
+.emoji1.hide{
+    display: none;
+}
+
+picture source{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+picture img{
+    width: 100px;
+    height: 100px;
+}
+
+.btns{
+    font-size: 30px;
+}
+.card{
+    border-radius: 20px;
+}
